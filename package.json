@@ -9,6 +9,9 @@
   },
   "author": "Emil Johansson <emiljohansson.se@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "weather": "cli.js"
+  },
   "bugs": {
     "url": "https://github.com/emiljohansson/weather/issues"
   },
