@@ -1,0 +1,19 @@
+{
+  "name": "weather",
+  "version": "0.0.0",
+  "description": "Prints the current temperature, using the Yahoo weather API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiljohansson/weather.git"
+  },
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiljohansson/weather/issues"
+  },
+  "homepage": "https://github.com/emiljohansson/weather#readme",
+  "dependencies": {
+    "yql": "^1.0.2"
+  }
+}
