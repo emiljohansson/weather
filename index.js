@@ -10,6 +10,14 @@ module.exports = cb => {
       console.log(err)
       return
     }
+
+    if (!data.query.results) {
+      cb({
+        error: true
+      })
+      return
+    }
+
     const location = data.query.results.channel.location
     const condition = data.query.results.channel.item.condition
 
