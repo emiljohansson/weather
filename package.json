@@ -9,14 +9,17 @@
   },
   "author": "Emil Johansson <emiljohansson.se@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "weather": "cli.js"
-  },
   "bugs": {
     "url": "https://github.com/emiljohansson/weather/issues"
   },
   "homepage": "https://github.com/emiljohansson/weather#readme",
+  "scripts": {
+    "test": "ava"
+  },
   "dependencies": {
     "yql": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0"
   }
 }
