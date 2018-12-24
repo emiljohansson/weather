@@ -17,7 +17,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "yql": "1.0.2"
+    "request": "2.88.0"
   },
   "devDependencies": {
     "ava": "1.0.1"
